@@ -37,7 +37,7 @@ def convert_number_strings(s: str) -> str:
 	"""Takes a string as input and returns the same string with all instances
 	of spelled out digits 1-9 converted into decimal.
 
-	Ex: 1three5seventeen -> 1357
+	Ex: 1threee5seventeen -> 13e57teen
 	"""
 	num_dict = {
 		'one':   '1',
